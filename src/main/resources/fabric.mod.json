@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "power-ruble-telega",
+  "version": "${version}",
+  "name": "Power Ruble Telega",
+  "description": "Telegram private-chat addon for Power Ruble balances and transfers.",
+  "authors": [
+    "power-ruble"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.powerruble.telega.PowerRubleTelegaMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.1",
+    "fabric-api": "*",
+    "java": ">=17",
+    "power-ruble": "*"
+  }
+}
